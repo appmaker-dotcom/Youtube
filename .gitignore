@@ -1,0 +1,36 @@
+# Secret environment variables — NEVER commit these
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Replit-specific
+.replit
+replit.nix
+.upm/
+
+# Logs (optional — remove this if you want logs in Git)
+logs/*.log
+
+# Database (contains your data — keep local)
+*.db
+*.sqlite3
+
+# Downloaded videos (large files)
+downloads/
+temp/
+*.mp4
+*.webm
+*.mkv
+
+# OS junk
+.DS_Store
+Thumbs.db

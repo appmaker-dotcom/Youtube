@@ -1,0 +1,28 @@
+# Core
+python-dotenv==1.0.1       # Reads .env files
+requests==2.31.0           # HTTP calls
+
+# Video downloading
+yt-dlp==2024.3.10          # Downloads YouTube videos (better than youtube-dl)
+
+# Video processing
+# Note: FFmpeg must be installed separately (Replit handles this via system packages)
+# We will add OpenCV in Phase 5
+
+# Transcription
+# openai-whisper will be added in Phase 4
+
+# Database
+# sqlite3 is built into Python — no install needed
+
+# YouTube API
+google-api-python-client==2.118.0
+google-auth==2.28.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# Scheduling
+schedule==1.2.1            # Runs tasks on a timer
+
+# Logging utilities
+colorlog==6.8.2            # Colored terminal logs
